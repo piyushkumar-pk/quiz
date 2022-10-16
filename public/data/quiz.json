@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "question": "What is the capital of India?",
+    "type": "options",
+    "options": ["New Delhi", "Kolkata", "Patna", "Tamilnadu"],
+    "answer": "New Delhi"
+  },
+  {
+    "id": 2,
+    "question": "Who is the prime minister of india?",
+    "type": "options",
+    "options": ["Narendra Modi", "Droupadi Murmu", "Rajnath Singh", "Arvind Kejriwal"],
+    "answer": "Narendra Modi"
+  },
+  {
+    "id": 3,
+    "question": "Who is the president of India?",
+    "type": "image-options",
+    "options": [
+      {
+        "url": "https://images.news18.com/ibnlive/uploads/2020/07/1595695787_1591709120_arvind-kejriwal-1.jpg?impolicy=website&width=510&height=356",
+        "id": "11",
+        "name": "Arvind Kejriwal"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Prime_Minister_of_India_Narendra_Modi.jpg",
+        "id": "22",
+        "name": "Narendra Modi"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/FaIKoyNacAAGjaY?format=jpg&name=4096x4096",
+        "id": "33",
+        "name": "Droupadi Murmu"
+      },
+      {
+        "url": "https://feeds.abplive.com/onecms/images/uploaded-images/2022/01/22/fcf43b41588c22d3cb7b915c96a2c34d_original.jpg",
+        "id": "44",
+        "name": "Shri Rajnath Singh"
+      }
+    ],
+    "answer": "33"
+  },
+  {
+    "id": 4,
+    "question": "Identify the image of statue of unity.",
+    "type": "image-options",
+    "options": [
+      {
+        "url": "https://images.adsttc.com/media/images/5bd9/b552/f197/cc45/e900/00d6/medium_jpg/43914221_363966157680449_595145553531016098_n.jpg?1540994380",
+        "id": "11",
+        "name": "Statue of unity"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Lady_Liberty_under_a_blue_sky_%28cropped%29.jpg",
+        "id": "22",
+        "name": "statue of liberty"
+      },
+      {
+        "url": "https://ichef.bbci.co.uk/news/640/cpsprodpb/A27C/production/_123169514_4992df93-72ad-427d-8e89-abadd4cdbe29.jpg",
+        "id": "33",
+        "name": "statue of equality"
+      },
+      {
+        "url": "https://cdn.britannica.com/86/170586-050-AB7FEFAE/Taj-Mahal-Agra-India.jpg",
+        "id": "44",
+        "name": "Taj Mahal"
+      }
+    ],
+    "answer": "11"
+  },
+  {
+    "id": 5,
+    "question": "What is the total number of states in india ?",
+    "type": "input",
+    "answer": "28"
+  },
+  {
+    "id": 6,
+    "question": "What is the total number of Union territories in india ?",
+    "type": "input",
+    "answer": "8"
+  }
+
+
+]
