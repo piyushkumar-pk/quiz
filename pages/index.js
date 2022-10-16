@@ -18,6 +18,10 @@ export default function App() {
 
     useEffect(() => {
         currentQuizQuestion();
+    }, [currentIndex]);
+
+
+    useEffect(() => {
         if (selectedAnswer && nextButton) {
             for (var i = 0; i < selectedAnswer.length; i++) {
                 if (selectedAnswer[i].id === id) {
@@ -26,9 +30,7 @@ export default function App() {
                 }
             }
         }
-    }, [currentIndex, id]);
-
-
+    },[id])
     const currentQuizQuestion = () => {
         setQuestion(QuizData[currentIndex].question);
         if (QuizData[currentIndex].type === "options" || QuizData[currentIndex].type === "image-options") {
@@ -157,6 +159,7 @@ export default function App() {
         <Head>
             <title>Quiz</title>
         </Head>
+
         <div className="container mt-5">
             {
                 startAssess ? (

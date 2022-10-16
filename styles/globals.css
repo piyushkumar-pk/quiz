@@ -10,15 +10,3 @@ a {
   color: inherit;
   text-decoration: none;
 }
-
-.goog-logo-link {
-  display:none !important;
-} 
-  
-.goog-te-gadget{
-  color: transparent !important;
-}
-.goog-te-combo {
-  width: 200px;
-  height: 35px;
-}
