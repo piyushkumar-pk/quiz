@@ -213,7 +213,7 @@ export default function App() {
                                                     <div>
                                                         <label>Please write your answer</label>
                                                         <br />
-                                                        <input type={"text"} className="form-control mt-3" value={userAnswer} onChange={(e) => checkAnswer(e.target.value)} placeholder="Write your answer here.." />
+                                                        <input type={"text"} className="form-control mt-3" onChange={(e) => checkAnswer(e.target.value)} placeholder="Write your answer here.." />
                                                     </div>
                                                 </> : ""
                                         }
